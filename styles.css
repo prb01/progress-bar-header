@@ -1,0 +1,12 @@
+.article-page-header-progress {
+  --progressPercentage: var(--scroll-percentage);
+
+  background: linear-gradient(
+    90deg,
+    #000,
+    var(--progressPercentage),
+    #000,
+    var(--progressPercentage),
+    #fff
+  );
+}
